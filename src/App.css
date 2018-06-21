@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-size: 12px;
+  font-weight: normal;
+}
+.header{
+  padding: 10px;
+  margin-top: 5px;
+  background-color: steelblue;
+}
+h1{
+  font-size: 36px;
+  display: inline-block;
+  width: 40%;
+  margin-left: 10px;
+  font-weight: lighter;
+  color: white;
+}
+.sub-title{
+  display: inline-block;
+  width: 55%;
+  font-size: 24px;
+  font-weight: lighter;
+  text-align: right;
+  color:white;
+}
+.school{
+  font-size: 20px;
+  margin-top:5px;
+  margin-left: 10px;
+  color: white;
+}
+.main{
+  display: flex;
+  font-size: 16px;
+  background-color: steelblue;
+  padding: 10px;
+}
+.main li {
+  list-style: none;
+  flex: auto;
+}
+.main a {
+  margin-left: 10px;
+  text-decoration: none;
+  color:white;
+  padding:10px 0 25px ;
+  font-size: 18px;
+}
+.section {
+  width: 45%;
+  margin-top: 35px;
+  margin-left:30px; 
+}
+.title-body{
+  font-size: 24px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.text-section{
+  font-size: 20px;
+  text-align: center;
+  font-weight: normal;
+}
