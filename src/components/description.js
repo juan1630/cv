@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const description = () => {
   return (
     <div className="description-mine">
@@ -9,13 +10,13 @@ const description = () => {
             </h3>
         </header>
         <section>
-            <p className="text-section">
+            <p className="text-section paragraph">
                 Actualmete tengo 23 años de edad vivo en Cuautla Morelos.
                 Soy desarrollador web fullstack, practicante de artes marciales
 
             </p>
         </section>
-        <section>
+        <section className="premios">
             <h3 className="title-body">
                     Premios:
                 </h3>
@@ -34,6 +35,12 @@ const description = () => {
                         </dt>
                         <dd>
                             Segundo lugar en el estao de Morelos
+                        </dd>
+                        <dt>
+                            Hakathon Morelos 7 Edición 2018
+                        </dt>
+                        <dd>
+                            En esta ocación obtuvimos el primer lugar en dicho evento
                         </dd>
                     </dl>
                 </div>
