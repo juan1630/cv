@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-weight: normal;
 }
 body{
   font-size: 12px;
@@ -18,7 +19,7 @@ h1{
   width: 40%;
   margin-left: 10px;
   font-weight: lighter;
-  color: white;
+  color:#FDFFFC;
 }
 .sub-title{
   display: inline-block;
@@ -47,22 +48,44 @@ h1{
 .main a {
   margin-left: 10px;
   text-decoration: none;
-  color:white;
+  color:#FCFCFF;
   padding:10px 0 25px ;
   font-size: 18px;
 }
 .section {
-  width: 45%;
   margin-top: 35px;
   margin-left:30px; 
 }
+
 .title-body{
   font-size: 24px;
   text-align: center;
   padding-bottom: 20px;
+  font-family: 'Merriweather', serif;
 }
 .text-section{
   font-size: 20px;
   text-align: center;
   font-weight: normal;
+}
+.img-section {
+  width:16%;
+  display: inline-block;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 150px; 
+}
+.description{
+  display: inline-block;
+  width: 50%;
+  margin-left: 20px;
+}
+.img-section img {
+  width: 100%;
+}
+.description-mine{
+  margin-top: 25px;
+  display: inline-block;
+  width: 50%;
+  margin-left: 20px;
 }

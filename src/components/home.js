@@ -1,10 +1,12 @@
 import React from 'react';
-//import imgTec from "../../public/image/descarga.png";
+import img from '../image/perfil2.jpg';
+
+
 const home = () => {
     //<img src={`window.location.origin ${image/descarga.png}`} alt="Tec. Cuautla" />
   return (
    <section className="section">
-       <article>
+       <article className="description">
            <header>
                <h2 className="title-body"> Estudios: </h2>
            </header>
@@ -15,8 +17,8 @@ const home = () => {
            </p>
 
        </article>
-       <article>
-           
+       <article className="img-section">
+           <img src={ img} alt="Propiedad"/>
        </article>
    </section>
   )
