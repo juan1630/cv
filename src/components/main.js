@@ -6,6 +6,7 @@ const main = () => {
       <Router>
         <nav >
           <ul className="main">
+              <li> <Link to="/">Home </Link></li>
               <li><Link to="/front-end">Front-end</Link> </li>
               <li><Link to="/back-end">Back-end</Link></li>
               <li><Link to="/db">Data base</Link></li>

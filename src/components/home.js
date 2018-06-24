@@ -1,5 +1,8 @@
 import React from 'react';
 import {Route, BrowserRouter as Router} from 'react-router-dom';
+
+import Description from './description';
+import Footer from './footer';
 import front from './front/index';
 
 import img from '../image/perfil2.jpg';
@@ -26,6 +29,8 @@ const home = () => {
             <img src={ img} alt="Propiedad"/>
         
         </article>
+        <Description></Description>
+      <Footer></Footer>
     </section>
     </Router>
   )

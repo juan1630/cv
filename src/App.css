@@ -13,6 +13,23 @@ body{
   margin-top: 5px;
   background-color: steelblue;
 }
+.frame{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.body-front{
+  display: flex;
+  width: 90%;
+  align-content: center;
+  align-items: center;
+}
+.center{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
 h1{
   font-size: 36px;
   display: inline-block;
@@ -118,4 +135,28 @@ dd{
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+}
+.title-front{
+  color: black;
+}
+.front-article{
+  margin-top: 30px;
+}
+
+.front-p{
+  font-weight: normal;
+  font-size: 18px;
+  text-align: center;
+}
+h4{
+  font-weight: normal;
+  font-size: 24px;
+  text-align: center;
+}
+
+.html{
+  margin-top:20px;
+}
+.laravel{
+  width: 30%;
 }

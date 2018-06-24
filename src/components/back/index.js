@@ -1,16 +1,16 @@
 import React from 'react';
 import Section from './section';
 
-const front = () => {
+export default () => {
   return (
     <div className="body-front">
           <h1 className="title-front center">
-              Front-end
+              Back-end
           </h1>
           <section className="section-front">
                 <header>
                     <h2 className="title-body" >
-                      Tecnolgías que domino
+                      Tecnolgías y lenguajes que he usasdo
                     </h2>
                 </header>
                 <article>
@@ -20,5 +20,3 @@ const front = () => {
     </div>
   )
 }
-
-export default front;
