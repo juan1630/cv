@@ -11,11 +11,11 @@ export default () => {
             <h4>
                Node  
             </h4>
-            <p>
+        </header>
+        <p className="front-p">
                 Javascript del lado del servidor con el cual he hecho proyectos de gran escala
             </p>
             <img src={node} alt="Node" />
-        </header>
       </div>
       <div>
           <header>
@@ -23,7 +23,7 @@ export default () => {
                 PHP
               </h4>
           </header>
-          <p>
+          <p className="front-p">
              Lenguaje de programación muy usado con tecnologías web
           </p>
           <img src={php} alt="Laravel" className="laravel"/>
@@ -34,7 +34,7 @@ export default () => {
                 Laravel
               </h4>
           </header>
-          <p>
+          <p className="front-p">
               Este framework de PHP que es muy utilizado en el desarrollo del ecomerce
           </p>
           <img src={laravel} alt="Laravel" className="laravel"/>

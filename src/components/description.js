@@ -17,9 +17,14 @@ const description = () => {
             </p>
         </section>
         <section className="premios">
+        <div>
+                    <h3 className="title-body">En una relación con: </h3>
+                    <p className=" text-section paragraph">La niña más linda :3 </p>
+                </div>
             <h3 className="title-body">
                     Premios:
                 </h3>
+               
                 <div className="define">
                     <dl>
                         <dt>

@@ -142,7 +142,9 @@ dd{
 .front-article{
   margin-top: 30px;
 }
-
+.define {
+  margin-top: 30px;
+}
 .front-p{
   font-weight: normal;
   font-size: 18px;
@@ -159,4 +161,24 @@ h4{
 }
 .laravel{
   width: 30%;
+}
+.ubuntu{
+  margin-top: 45px;
+}
+.img-ubuntu{
+  display: inline-block;
+  margin-left: 130px;
+  margin-top: 20px;
+}
+.conte{
+  margin-top: 25px;
+}
+.mysql{
+  margin-left: 70px;
+}
+.space{
+  margin-top: 15px;
+}
+.img-mongo{
+  margin-bottom:10px; 
 }
